@@ -1,5 +1,7 @@
 # SegRoot
 Source code for SegRoot, a paper titled "SegRoot: a high throughput segmentation method for root image analysis"
+<img align="center" src="https://github.com/wtwtwt0330/SegRoot/raw/master/examples/Untitled_T051_L004_10.04.17_131720_003_Untitled.jpg" width="350" height="350">
+<img align="center" src="https://github.com/wtwtwt0330/SegRoot/raw/master/examples/Untitled_T051_L004_10.04.17_131720_003_Untitled-pre-mask-segroot-64,5.jpg" width="350" height="350">
 # Contents
 * Source code for training SegRoot networks (/code)
 * A training set of 65 soybean root images and corresponding annotations (/data/data_raw)
