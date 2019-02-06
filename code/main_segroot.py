@@ -107,5 +107,6 @@ if __name__ == "__main__":
                 test_dice = evaluate(model, test_tdata, device)
                 print("New best validation, test dice: {:.4f}".format(test_dice))
                 torch.save(
-                    model.state_dict(), f"../weights/best_segroot-({args.width},{args.depth}).pt"
+                    model.state_dict(),
+                    f"../weights/best_segroot-({args.width},{args.depth}).pt",
                 )
