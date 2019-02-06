@@ -41,4 +41,11 @@ python predict_images.py --all --data_dir <YourImageFolderPath>
 ```
 python main_segroot.py --width <4,8,16,32,64> --depth <4,5>
 ```
-see more details by using ```python main_segroot.py -h```
+see more details by using ```python main_segroot.py -h```,
+the trained weights will be stored in /weights folder
+
+* after training a new SegRoot, you can use load the trained weights to predict images:
+```
+python predict_images.py --weights ../weights/<WeightsFilename>
+```
+make sure the width and depth are the same as the trained SegRoot network.
